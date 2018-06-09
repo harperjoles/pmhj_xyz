@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <base href="/">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Font Awesome Icons -->
+    <script defer src="./js/shared/fontawesome-all.js"></script>
+    <!-- Include the AngularJS library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+    <!-- Font -->
+    <style>@import url('https://fonts.googleapis.com/css?family=Montserrat');</style>
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <title>pmhj.xyz</title>
+
+  </head>
+  <body ng-app="myApp">
+    <div class="navbar">
+      <div class="container-fluid">
+        <div class="row">
+          <ul id="nav">
+            <li><a href="index.html">pmhj.xyz</a></li>
+            <li><a href="views/portfolio.html">portfolio</a></li>
+            <li><a href="views/neo.html">neo4j</a></li>
+            <li><a href="views/blog.html">blog</a></li>
+            <li><a href="views/about.html">about</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-mobile" ng-controller="MainController">
+      <div id="overlay"></div>
+      <div id="overlayImgP">
+        <img id="imgFullP" src="" alt="" width="400" />
+      </div>
+      <div id="overlayImgW">
+        <img id="imgFullW" src="" alt="" width="800" />
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-7" id="mobile-text">
+            <h2>Mobile Designs: Calendar, Tasks, and Notes</h2>
+            <p><div class="section-header">Problem Statement: </div>Given a class of students, design a mobile OS suite of applications based upon a set of common theming and use case goals. Each group will be assigned a set of OS applications to design.</p>
+
+            <p><div class="section-header">Plan: </div>Upon deciding on a set of most important uses and users for our set of applications, research and design our own most useful features to be included.</p>
+
+            <p><div class="section-header">Team: </div>4 members, Patrick Harper-Joles (PM/Calendar), Jaimelenn Uemura (Tasks), Patrick Liang (Notes), Chinh Le (Design Creation)</p>
+
+            <p><div class="section-header">Technology: </div>Illustrator, Sketch</p>
+
+            <p><div class="section-header">Mildly Interesting: </div>Upon completing the Mobile Design class offered at University of Washington, all the students' designs were given to a panel of design professionals to review and grade. Our team passed this review with the highest marks in the class, 4.2 out of 5.</p>
+          </div>
+          <div class="col-sm-5"><img src="img/mobileCalWeekMockup.png" id="mobile-img"></div>
+        </div>
+      </div>
+      <div class="container-fluid" id="thumbs-list">
+        <ul>
+          <div class="row" id="mobile-list">
+            <div class="col-sm-12" id="mobile-header">
+              <h2 class="notes-header">Calendar</h2>
+              <img src="img/hLine.png" id="header-line">
+              <ul class="notes-list">
+                <li>Calendar was designed to be easy to use by putting large colorful selectable events on screen with the ability to quickly scroll throughout your upcoming events</li>
+                <li>Having previously done some work in the schedule sharing space with a previous project, I immediately identified schedule sharing to be a key asset of use for this design, this could allow for easy sharing and following friends schedules</li>
+              </ul>
+            </div>
+            <div class="col-sm-4"><li><img src="img/mobileCalDay.png" class="list-item" id="imgThumbM1"></li></div>
+            <div class="col-sm-4"><li><img src="img/mobileCalWeek.png" class="list-item" id="imgThumbM2"></li></div>
+            <div class="col-sm-4"><li><img src="img/mobileCalMonth.png" class="list-item" id="imgThumbM3"></li></div>
+            <div class="col-sm-4"><li><div class="list-header">Day View</div><img src="img/hLine.png" id="h-line"><p class="list-text">This view is designed to allow for quick access to your next 7 upcoming days. The left column swipes up/down to scroll through upcoming and previous days. The right column allows for scrolling through the day itself, with an 12 hour viewable range. The 'Share' button in the top left allows for sharing at any time level, day/week/month, or even continued sharing with authorized people!</p></li></div>
+            <div class="col-sm-4"><li><div class="list-header">Week View</div><img src="img/hLine.png" id="h-line"><p class="list-text">Week view is the primary starting view of our calendar application as we decided it was the timeframe most focused on when looking at their calendar. This view would should 8 days at a time and would allow for scrolling of days on the left column and scrolling of time on the bottom row. The 'Calendars' button in the top right allows for the viewing and comparing of all of your, and your friends', calendars.</p></li></div>
+            <div class="col-sm-4"><li><div class="list-header">Month View</div><img src="img/hLine.png" id="h-line"><p class="list-text">The most macro view of this application focuses on months. The left column allows for scrolling of months with 6 months viewable at any given time. All month days are selectable with a detailed hourly view under the month itself. This view gives extra value by offering complex views not normally offered in calendar applications at the time.</p></li></div>
+            <div class="col-sm-6"><li><img src="img/mobileCalShare.png" class="list-item-mobile" id="imgThumbM4"></li></div>
+            <div class="col-sm-6"><li><div class="list-header">Calendar Share Mode</div><img src="img/hLine.png" id="h-line"><div id="list-text-mobile"><p>Share mode was envisioned to fix one of the hardest aspects of meeting with others, determining mutually open time slots on both your friends'/co-workers' calendars and your calendar/s. To do this we would utilize common discovery tactics by phone number, contacts, or emails. <p></p>After entering all applicable information we could find and suggest meeting times based upon date/time ranges and then add additional detail info such as, a mutually shared meeting location commonly seen in past calendar events or open spaces close to all participants last entered calendar event (if an event exists on same day before proposed event). <p></p>NOTES: Upon our last demo, when this feature was fully realized and discussed, this feature gained the most praise. As college students regularly have wildly varying class/work schedules, easily finding common calendar oepnings was seen as a huge time save. I personally saw this to be a running theme through a number of shared events and projects.</p></div></li></div>
+            <div class="col-sm-12" id="about-header">
+              <h2 class="notes-header">Tasks</h2>
+              <img src="img/hLine.png" id="header-line">
+              <ul class="notes-list">
+                <li>Tasks was designed to offer large easily selectable category tiles to view lists of items needing action</li>
+                <li>Categories offer ways to categorize and then minimize current task lists, in our mock-ups we have shown the examples of categorizing by a class title or a shopping list, for instance</li>
+                <li>We focused on large easily readable fonts and quick swipe actions for completion or deletion of tasks</li>
+                <li>Task entry allows for much detail, but it does not require anything more than a title</li>
+              </ul>
+            </div>
+            <div class="col-sm-6"><li><div class="list-header">Tasks: Organizing Activity</div><img src="img/hLine.png" id="h-line"><div id="list-text-mobile"><p>Starting with our left most mock-up, we organized a single entry area for text with the ability to move it into whichever application is applicable at the time. This allowed all our applications to sync with one another to create a unified calendar event/task/notes insertion point. <p></p>Next is our task category view, this view allowed for viewing all categories before selection and also the entry of new categories. <p></p>Category 1 is present in our third mock-up, this category is a random assortment of tasks for demo purposes. Here we are illustraing the usage of the quick complete and quick delete features accessed by simply swiping right or left, respectively. <p></p>Last, we have the task entry view. Allowing for a detailed amount of description was important to us, but it was equally important to offer alot of info as it was to quickly enter new tasks, so only the title field is mandatory to task creation.</p></div></li></div>
+            <div class="col-sm-6"><li><img src="img/mobileTaskOverview.png" class="list-item-mobile" id="imgThumbM5"></li></div>
+            <div class="col-sm-12" id="about-header">
+              <h2 class="notes-header">Notes</h2>
+              <img src="img/hLine.png" id="header-line">
+              <ul class="notes-list">
+                <li>Notes was designed to offer a simple no frills quick text entry experience</li>
+                <li>We wanted large colorful note tiles to select, as the note itself becoems more dense with text, so does the note tile giving an indication of the notes' current textual size</li>
+                <li>For entry, we included some common text editting tools, such as bulleted lists, images, and fonts</li>
+              </ul>
+            </div>
+            <div class="col-sm-6"><li><img src="img/mobileNoteOverview.png" class="list-item-mobile" id="imgThumbM6"></li></div>
+            <div class="col-sm-6"><li><div class="list-header">Notes: Organizing Thought</div><img src="img/hLine.png" id="h-line"><div id="list-text-mobile"><p>Notes, Tasks, and our Calendar solution all utilize the same "single entry" area for titles, only after selecting a title do we decide type of item we are creating. Though normal methods of direct application selection and entry would exist, we believed this to be a novel way to create new items. <p></p>The second mock-up from the left, highlights the note selection view which allows for limited viewing of notes before selection. Text sizes decrease for larger notes but stay readable.<p></p>Note entry, though simply interfaced, allowed for advanced entry items to be selected under the main text entruy area. <p></p>In our last mock-up, we see full note view is the best way to view a completed note with easily contrasting colors and well sized fonts. </p></div></li></div>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer">
+       <div class="container-fluid" id="footer-text">
+        <p>©2018 pmhj.xyz</p>
+        <p>pmhj42@gmail.com</p>
+      </div>
+      <div class="container-fluid" id="footer-icons">
+        <a href="https://www.linkedin.com/in/pmhj42/"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a href="https://twitter.com/pmhj42"><i class="fab fa-twitter fa-3x"></i></a>
+        <a href="https://www.instagram.com/pmhj42/"><i class="fab fa-instagram fa-3x"></i></a>
+      </div>
+    </div>
+
+    <!-- Modules -->
+    <script src="js/app.js"></script>
+    <!-- Controllers -->
+    <script src="js/controllers/MainController.js"></script>
+    <!-- Directives -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery load first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- jQuery js -->
+    <script src='js/preview.js'></script>
+  
+  </body>
+</html>
