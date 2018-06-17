@@ -1,0 +1,606 @@
+h2 {
+   color: #fdc501;
+}
+
+
+
+.navbar {
+   background-color: #f8f8ff;
+   width: 100%;
+   color: black;
+}
+.navbar .container-fluid {
+   width: 80%;
+   padding-top: 0.5%; 
+}
+#nav {
+   list-style: none;
+   display: inline-block;
+   text-align: center;
+   word-spacing: 18px;
+   font-size: 20px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+}
+#nav li {
+   display: inline-block;
+   text-align: center;
+}
+#nav a {
+   color: black;
+}
+
+
+
+.main {
+   background-color: #000000;
+   height: 1800px;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+}
+.main .container-fluid {
+   color: white;
+   font-size: 14px;
+}
+#name {
+   height: 600px;
+   width: 100%;
+   padding: 10% 0% 10% 0%;
+   text-align: center;
+   background-image: url("../img/sydney1.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+#name h1 {
+   font-size: 72px;
+}
+
+#main-content {
+   height: auto;
+   width: 100%;
+   padding: 5% 5% 5% 5%;
+   text-align: center;
+}
+#main-text {
+   padding: 2% 5% 2% 5%;
+   text-align: center;
+}
+#main-thumbs {
+   height: 300px;
+   width: 300px;
+}
+#main-aboutIndex {
+   height: auto;
+   width: 80%;
+   padding: 2% 2% 2% 2%;
+   text-align: center;
+}
+#aboutIndex {
+   padding-bottom: 2%;
+}
+#aboutIndex-row {
+   text-align: center;
+   align-content: center;
+}
+#aboutIndex-line {
+   width: 30%;
+}
+
+.footer {
+   background-color: #000000;
+   height: 10%;
+   width: 100%;
+   padding: 1% 1% 2% 1%;
+   font-family: 'Montserrat', sans-serif;
+}
+.footer .container-fluid {
+   height: 10%;
+   width: 80%;
+   color: white;
+   font-size: 14px;
+   text-align: center;
+}
+.footer .container-fluid a {
+   color: white;
+}
+#footer-text {
+   word-spacing: 2px;
+   padding: 2% 1% 1% 1%;
+}
+#footer-icons {
+   word-spacing: 64px;
+   padding: 0% 1% 1% 1%;
+}
+
+
+#header-line {
+   overflow: hidden;
+   height: auto;
+   display: block;
+   padding: 1% 2% 1% 2%;
+   margin-left: auto;
+   margin-right: auto;
+   width: 20%;
+}
+#h-line {
+   overflow: hidden;
+   height: auto;
+   display: block;
+   padding: 1% 2% 1% 2%;
+   margin-left: auto;
+   margin-right: auto;
+   width: 42%;
+}
+#h-lineL {
+   overflow: hidden;
+   height: auto;
+   display: block;
+   padding: 1% 0% 1% 0%;
+   margin-right: auto;
+   width: 42%;
+}
+#h-lineR {
+   overflow: hidden;
+   height: auto;
+   display: block;
+   padding: 1% 0% 1% 0%;
+   margin-left: auto;
+   width: 42%;
+}
+#v-line {
+   overflow: hidden;
+   width: auto;
+   height: 70%;
+   display: block;
+   padding: 50% 25% 50% 25%;
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: auto;
+   margin-right: auto;
+}
+#v-lineC {
+   overflow: hidden;
+   width: auto;
+   height: 42%;
+   display: inline-block;
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: 0px;
+   margin-right: 0px;
+   padding: 0% 0% 0% 0%;
+}
+
+.section-header {
+   font-size: 20px;
+   font-weight: 500;
+}
+.notes-header {
+   text-align: center;
+   padding: 1% 1% 0% 1%;
+}
+.notes-list {
+   list-style-type: square;
+   list-style-position: inside;
+   text-align: left;
+   padding: 2% 10% 2% 10%;
+}
+.list-item {
+   height: auto;
+   width: 100%;
+   padding: 2% 10% 2% 10%;
+   overflow: hidden;
+}
+.list-header {
+   font-size: 24px;
+   font-weight: 700;
+   padding: 1% 0% 1% 0%;
+   text-align: center;
+   color: #fdc501;
+}
+.list-headerL {
+   font-size: 24px;
+   font-weight: 700;
+   padding: 1% 0% 1% 0%;
+   text-align: left;
+   color: #fdc501;
+   text-decoration: none;
+}
+.list-headerR {
+   font-size: 24px;
+   font-weight: 700;
+   padding: 1% 0% 1% 0%;
+   text-align: right;
+   color: #fdc501;
+   text-decoration: none;
+}
+.list-text {
+   text-align: center;
+   padding: 2% 10% 5% 10%;
+   width: 100%;
+   font-size: 14px;
+}
+.list-textL {
+   text-align: left;
+   padding: 1% 0% 1% 0%;
+   width: 100%;
+   font-size: 14px;
+   margin-top: auto;
+   text-decoration: none;
+}
+.list-textR {
+   text-align: right;
+   padding: 1% 0% 1% 0%;
+   width: 100%;
+   font-size: 14px;
+   text-decoration: none;
+}
+.list-link {
+   text-decoration: none;
+}
+
+
+
+.main-portfolio {
+   background-color: #000000;
+   height: 1200px;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+}
+#portfolio-text {
+   text-align: center;
+   padding: 3% 10% 5% 3%;
+   text-decoration: none;
+}
+#portfolio-text h2 {
+   font-size: 42px;
+   padding-bottom: 4%;
+}
+#portfolio-text p {
+   font-size: 16px;
+}
+
+#portfolio-img {
+   height: 400px;
+   width: 400px;
+   position: absolute;
+   right: 50px;
+   padding-bottom: 2%;
+}
+
+#portfolio-list {
+   padding: 1% 0% 1% 0%;
+   list-style-type: none;
+   text-decoration: none;
+}
+#portfolio-list a {
+   color: white;
+   text-decoration: none;
+}
+
+#list-item-portfolioL {
+   position: absolute;
+   width: 250px;
+   height: auto;
+   padding: 1% 0% 1% 0%;
+   text-align: left;
+   left: 2px;
+
+}
+#list-item-portfolioR {
+   position: absolute;
+   width: 250px;
+   height: auto;
+   padding: 1% 0% 1% 0%;
+   text-align: right;
+   right: 2px;
+}
+
+
+
+.main-fresh {
+   background-color: #000000;
+   height: 2800px;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+}
+
+#fresh-text {
+   text-align: left;
+   padding: 5% 10% 15% 5%;
+   margin: auto auto auto auto;
+}
+#fresh-text h2 {
+   font-size: 42px;
+}
+#fresh-text p {
+   font-size: 18px;
+}
+
+#fresh-img {
+   height: auto;
+   width: 100%;
+   position: absolute;
+   right: 50px;
+   padding-bottom: 2%;
+}
+
+#fresh-list {
+   list-style-type: none;
+}
+
+
+
+.main-retro {
+   background-color: #000000;
+   height: 2850px;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+}
+#retro-text {
+   text-align: left;
+   padding: 2% 3% 0% 5%;
+}
+#retro-text h2 {
+   font-size: 42px;
+   padding-bottom: 0.5%;
+}
+#retro-text p {
+   font-size: 18px;
+}
+
+.retro-img {
+   width: 600px;
+   position: absolute;
+   right: 50px;
+   padding-bottom: 1%;
+   overflow: hidden;
+   height: auto;
+   display: block;
+}
+
+#retro-list {
+   list-style-type: none;
+   padding: 1% 42% 1% 2%;
+}
+
+#list-item-retro {
+   height: auto;
+   width: 70%;
+   padding: 2% 2% 2% 2%;
+}
+#list-header-retro {
+   font-size: 24px;
+   font-weight: 700;
+   padding: 1% 30% 1% 0%;
+   text-align: center;
+   color: #fdc501;
+}
+#list-text-retro {
+   text-align: center;
+   padding: 2% 30% 2% 2%;
+   font-size: 14px;
+}
+
+#h-line-retro {
+   overflow: hidden;
+   height: auto;
+   display: block;
+   margin-left: 10%;
+   margin-right: auto;
+   width: 50%;
+}
+
+
+
+.main-mobile {
+   background-color: #000000;
+   height: 4400px;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+}
+#mobile-text {
+   text-align: left;
+   padding: 2% 3% 0% 5%;
+}
+#mobile-text h2 {
+   font-size: 42px;
+   padding-bottom: 0.5%;
+}
+#mobile-text p {
+   font-size: 18px;
+}
+
+#mobile-img {
+   width: 450px;
+   position: absolute;
+   right: 100px;
+   padding-bottom: 5%;
+   overflow: hidden;
+   height: auto;
+   display: block;
+}
+
+#mobile-list {
+   padding-top: 15%;
+   list-style-type: none;
+}
+
+.list-item-mobile {
+   height: auto;
+   width: 100%;
+   padding: 2% 2% 2% 2%;
+}
+#list-text-mobile {
+   text-align: center;
+   padding: 2% 10% 2% 10%;
+}
+
+
+
+.main-cruise {
+   background-color: #000000;
+   height: 2700px;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+}
+#cruise-text {
+   text-align: left;
+   padding: 2% 5% 0% 5%;
+}
+#cruise-text h2 {
+   font-size: 42px;
+}
+#cruise-text p {
+   font-size: 18px;
+}
+
+#cruise-img {
+   width: 700px;
+   position: absolute;
+   right: 50px;
+   overflow: hidden;
+   height: auto;
+   display: block;
+}
+
+#cruise-list {
+   padding-top: 8%;
+   list-style-type: none;
+}
+
+#list-item-cruise {
+   height: auto;
+   width: 80%;
+   padding: 2% 2% 2% 2%;
+}
+#list-text-cruise {
+   text-align: center;
+   padding: 5% 2% 2% 2%;
+   font-size: 14px;
+}
+
+
+
+.main-about {
+   background-color: #000000;
+   height: 2600px;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+}
+
+#about-text {
+   text-align: left;
+   padding: 2% 3% 10% 3%;
+   font-size: 14px;
+}
+#about-text h2 {
+   font-size: 32px;
+   padding-bottom: 0.5%;
+}
+#about-text p {
+   font-size: 14px;
+}
+
+#about-img {
+   overflow: hidden;
+   height: 70%;
+   display: block;
+   padding: 42% 25% 42% 25%;
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: auto;
+   margin-right: auto;
+}
+#about-imgH {
+   overflow: hidden;
+   height: auto;
+   display: block;
+   padding: 0% 5% 1% 5%;
+   margin-left: auto;
+   margin-right: auto;
+   width: 20%;
+}
+#about-imgR {
+   width: 750px;
+   position: absolute;
+   right: 50px;
+   overflow: hidden;
+   height: auto;
+   display: block;
+   padding-bottom: 8%;
+}
+#about-imgL {
+   width: 750px;
+   position: absolute;
+   left: 50px;
+   overflow: hidden;
+   height: auto;
+   display: block;
+   padding-bottom: 8%;
+}
+
+#about-header {
+   text-align: center;
+   padding: 1% 5% 1% 5%;
+}
+#about-header h2 {
+   font-size: 36px;
+}
+#about-header p {
+   font-size: 16px;
+}
+
+
+
+#overlay{
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
+    top: 0px; 
+    left: 0px; 
+    background-color: #000000; 
+    opacity: 0.7;
+    filter: alpha(opacity = 70) !important;
+    display: none;
+    z-index: 100;
+}
+#overlayImgP{
+    position: fixed; 
+    width: 100%;
+    height: 100%;
+    top: 10px; 
+    text-align: center;
+    display: none;
+    overflow: scroll;
+    z-index: 100;
+}
+#overlayImgW{
+    position: fixed; 
+    width: 100%;
+    height: 100%;
+    top: 60px; 
+    text-align: center;
+    display: none;
+    overflow: scroll;
+    z-index: 100;
+}
+#imgGallery{
+    margin: 0px auto;
+}
+#imgFullP, #imgThumb, #imgThumbF1, #imgThumbF2, #imgThumbF3, #imgThumbF4, #imgThumbF5, #imgThumbF6, 
+#imgThumbC1, #imgThumbC2, #imgThumbC3, #imgThumbC4, #imgThumbC5, #imgThumbC6, #imgThumbM1, #imgThumbM2, 
+#imgThumbM3, #imgThumbM4, #imgThumbM5, #imgThumbM6, #imgThumbR1 {
+    cursor: pointer;
+}
+
+
+
+
+
+

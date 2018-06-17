@@ -1,0 +1,28 @@
+{
+  "name": "pmhj_xyz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "neo4j-driver": "^1.5.0",
+    "bootstrap": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaTTrick042/pmhj_xyz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaTTrick042/pmhj_xyz/issues"
+  },
+  "homepage": "https://github.com/HaTTrick042/pmhj_xyz#readme"
+}
