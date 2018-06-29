@@ -161,12 +161,12 @@ h2 {
 #v-lineC {
    overflow: hidden;
    width: auto;
-   height: 42%;
+   height: 300px;
    display: inline-block;
    margin-top: auto;
    margin-bottom: auto;
-   margin-left: 0px;
-   margin-right: 0px;
+   margin-left: 1%;
+   margin-right: 1%;
    padding: 0% 0% 0% 0%;
 }
 
@@ -280,7 +280,7 @@ h2 {
 
 #list-item-portfolioL {
    position: absolute;
-   width: 250px;
+   width: 300px;
    height: auto;
    padding: 1% 0% 1% 0%;
    text-align: left;
@@ -289,7 +289,7 @@ h2 {
 }
 #list-item-portfolioR {
    position: absolute;
-   width: 250px;
+   width: 300px;
    height: auto;
    padding: 1% 0% 1% 0%;
    text-align: right;

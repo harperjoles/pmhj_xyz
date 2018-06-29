@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <base href="/">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Font Awesome Icons -->
+    <script defer src="./js/shared/fontawesome-all.js"></script>
+    <!-- Include the AngularJS library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+    <!-- Font -->
+    <style>@import url('https://fonts.googleapis.com/css?family=Montserrat');</style>
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <title>pmhj.xyz</title>
+
+  </head>
+  <body ng-app="myApp">
+    <div class="navbar">
+      <div class="container-fluid">
+        <div class="row">
+          <ul id="nav">
+            <li><a href="index.html">pmhj.xyz</a></li>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="neo.html">neo4j</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="about.html">about</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-fresh" ng-controller="MainController">
+      <div id="overlay"></div>
+      <div id="overlayImgP">
+        <img id="imgFullP" src="" alt="" width="400" />
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-7" id="fresh-text">
+            <h2>Project Fresh</h2>
+            <p><div class="section-header">Problem Statement: </div>While away from home we frequently do not have a view into our home pantry or current store of cooking items. If there were a solution, one might hope to reduce food waste, minimize frustration from 'quick store trips', and possible monetary savings.</p>
+
+            <p><div class="section-header">Plan: </div>Create an android mobile solution that would include features such tracking of home pantry, meal/shopping suggestions based upon current pantry items, expiration/use-by-date tracking, etc.,</p>
+
+            <p><div class="section-header">Team: </div>4 members, Sijin Chen (UI/UX Design), Harpreet Jaswal (Developer), Gabe Tran (Research/Videographer), Patrick Harper-Joles (PM)</p>
+
+            <p><div class="section-header">Technology: </div>Android Studio Code, Illustrator</p>
+
+            <p><div class="section-header">Mildly Interesting: </div>We filmed a number of promotional videos, and went through many many reshoots, to first illustrate our problem statement and then to show the world after our solution. It was a really fun process and the videos came out great!</p>
+          </div>
+          <div class="col-sm-5"><img src="img/projectFreshFull.png" id="fresh-img"></div>
+        </div>
+      </div>
+      <div class="container-fluid" id="thumbs-list">
+        <ul>
+          <div class="row" id="fresh-list">
+            <div class="col-sm-12" id="fresh-header">
+              <h2 class="notes-header">Design Notes</h2>
+              <img src="img/hLine.png" id="header-line">
+              <ul class="notes-list">
+                <li>Designed to be useful through ease of non-use, the app passively sends alerts about food items without much user interaction</li>
+                <li>Both educational and instructional, the app tracks your food but also suggests your meals adding value to your personal dataset</li>
+                <li>Shopping lists resorted in novel ways, the app can organize your shopping list based upon the needs of specific recipes so you know exactly what you need and only that</li>
+                <li>One scan entry method, GS1 coding can be found on many items within your local grocery store and not just on food, this coding allows the tracking of expiration dates, best by dates, and the best part is more than one item can be added to a single scan code!</li>
+              </ul>
+            </div>
+            <div class="col-sm-4"><li><img src="img/freshHomeThumb.png" class="list-item" id="imgThumbF1"></li></div>
+            <div class="col-sm-4"><li><img src="img/freshItemDetailThumb.png" class="list-item" id="imgThumbF2"></li></div>
+            <div class="col-sm-4"><li><img src="img/freshRecipeThumb.png" class="list-item" id="imgThumbF3"></li></div>
+            <div class="col-sm-4"><li><div class="list-header">Pantry View</div><img src="img/hLine.png" id="h-line"><p class="list-text">This view is centered around your current store of at home food. From left to right; image of item, name/expiration date, and a color coded easy view to tell you whether an item is in a good to eat zone or whether you should trash it and buy fresh. This is the home screen of the application, serving as the information base for suggestions and other features.</p></li></div>
+            <div class="col-sm-4"><li><div class="list-header">Pantry Detailed View</div><img src="img/hLine.png" id="h-line"><p class="list-text">By selecting any of your pantry items you can view a detailed information view that includes such things as; expiration date, nutritional facts, recipe suggestions based on this item, and the ability to add this item to a future shopping list.</p></li></div>
+            <div class="col-sm-4"><li><div class="list-header">Recipe View</div><img src="img/hLine.png" id="h-line"><p class="list-text">Selectable from both the pantry detailed view and through the bottom selection bar, recipe view shows simple suggestions based on your current, and previous, pantry items. This allows you to not only maximize the food you purchase but also can introduce you to new recipes!</p></li></div>
+            <div class="col-sm-4"><li><img src="img/freshRecipeListThumb.png" class="list-item" id="imgThumbF4"></li></div>
+            <div class="col-sm-4"><li><img src="img/freshScanThumb.png" class="list-item" id="imgThumbF5"></li></div>
+            <div class="col-sm-4"><li><img src="img/freshShoppingListRecipeThumb.png" class="list-item" id="imgThumbF6"></li></div>
+            <div class="col-sm-4"><li><div class="list-header">Recipe Gallery</div><img src="img/hLine.png" id="h-line"><p class="list-text">Home to both recipes based upon your pantry and their relative difficulty/time to prepare. Sorting is available in multiple forms including; cook time, difficulty, or even sort by expiration date!</p></li></div>
+            <div class="col-sm-4"><li><div class="list-header">Scan Mode</div><img src="img/hLine.png" id="h-line"><p class="list-text">Instead of entering each item into Project Fresh individually, scan them into your pantry in any of these formats; GS1, UPC, or QR codes are all supported at launch! We hope that by utilizing currently developing GS1 standards technology we can make create a single scan-able code at the bottom of your shopping recipe. One snap and you're done! Your entire purchase list will be added to your current pantry!</p></li></div>
+            <div class="col-sm-4"><li><div class="list-header">Shopping Lists</div><img src="img/hLine.png" id="h-line"><p class="list-text">There are lots of shopping list based applications on the market, however this list is based on YOUR trends and YOUR likes. You can add items to your list automatically upon expiration or see what you you have, and don't have, to make a recipe. Simple settings designed to make YOUR life more about YOU.</p></li></div>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer">
+       <div class="container-fluid" id="footer-text">
+        <p>©2018 pmhj.xyz</p>
+        <p>pmhj42@gmail.com</p>
+      </div>
+      <div class="container-fluid" id="footer-icons">
+        <a href="https://www.linkedin.com/in/pmhj42/"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a href="https://twitter.com/pmhj42"><i class="fab fa-twitter fa-3x"></i></a>
+        <a href="https://www.instagram.com/pmhj42/"><i class="fab fa-instagram fa-3x"></i></a>
+      </div>
+    </div>
+
+    <!-- Modules -->
+    <script src="js/app.js"></script>
+    <!-- Controllers -->
+    <script src="js/controllers/MainController.js"></script>
+    <!-- Directives -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery load first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- jQuery js -->
+    <script src='js/preview.js'></script>
+
+  </body>
+</html>

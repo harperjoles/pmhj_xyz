@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <base href="/">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Font Awesome Icons -->
+    <script defer src="./js/shared/fontawesome-all.js"></script>
+    <!-- Include the AngularJS library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+    <!-- Font -->
+    <style>@import url('https://fonts.googleapis.com/css?family=Montserrat');</style>
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+    <title>pmhj.xyz</title>
+
+  </head>
+  <body ng-app="myApp">
+    <div class="navbar">
+      <div class="container-fluid">
+        <div class="row">
+          <ul id="nav">
+            <li><a href="index.html">pmhj.xyz</a></li>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="neo.html">neo4j</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="about.html">about</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="main" ng-controller="MainController">
+      <div class="container-fluid" id="name">
+        <h1>Patrick M. Harper-Joles</h1>
+        <h3>UX/UI Design. Front-End Development. Information Architecture.</h3>
+      </div>
+      <div class="container-fluid" id="main-content">
+        <div class="row">
+          <div class="col-sm-12" id="main-text">
+            <h2>Recent-ish Projects</h2>
+            <p>Over the course of the last few years I have strived to better my designs with each new pursuit. Nearly every project I have been a part of has been a collaborative effort that has contributed to both my perspective and my personal growth. Acting as either Design Lead, Project Manager, or Developer (or any combination in between), I have tried to take a varied approach to solving problems. Below are are few of my recent-ish projects for review. I include design decision notes and rationale into why we decided to design our projects the way we did. Feel free to check out my work!</p>
+          </div>
+          <div class="col-sm-3"><a href="fresh.html"><img src="img/projectFreshThumb.png" id="main-thumbs"></a></div>
+          <div class="col-sm-3"><a href="retro.html"><img src="img/retroThumb.png" id="main-thumbs"></a></div>
+          <div class="col-sm-3"><a href="mobile.html"><img src="img/mobileCalThumb.png" id="main-thumbs"></a></div>
+          <div class="col-sm-3"><a href="cruise.html"><img src="img/cruiseMirrorThumb.png" id="main-thumbs"></a></div>
+        </div>
+      </div>
+      <div class="container-fluid" id="main-aboutIndex">
+        <div class="row" id="aboutIndex-row">
+          <div class="col-sm-12" id="aboutIndex">
+            <h2>About me</h2>
+            <p>I like to design and develop complicated self-sustaining systems with new insights into previous problems. I have a strong passion towards making my designs as perfect as possible within the allotted project timeframe. Working with other meticulous minded and project focused engineers is a personal goal of mine, as I am focused on seeing creating progressively better designs and would like to work with like-minded people. </p><p>Currently, I am focused on: Graph Database design and development for internal business usage, but I am interested in new opportunities in all differing fields. If there is an interface there must be data, if there is data there must a consumder, I advocate for that consumer at every opportunity in loud fashion.</p>
+            </div>
+          <div class="col-sm-4">
+            <h3>Design</h3>
+            <img src="img/hLine.png" id="h-line">
+            <p></p>
+            <p>Primarily I consider myself a Designer. The creation process is one of the largest joys in life to me. Given a cohesive vision and growth strategy, I can spend near limitless time refining a user interface design or tweaking new features into prototype builds.</p>
+            <p></p>
+            <p>Illustrator. Sketch.</p>
+          </div>
+          <div class="col-sm-4">
+            <h3>Development</h3>
+            <img src="img/hLine.png" id="h-line">
+            <p></p>
+            <p>Informatics is my Alma Mater from the University of Washington in Seattle, WA. We focused on cross-functional skillsets of all tech needed to build stacks and store data. That said, I am not actually sure it is possible to get out of UW without having taken a few coding classes.</p>
+            <p></p>
+            <p>HTML/CSS/JS. Node.js. PHP. Python. Java. </p>
+          </div>
+          <div class="col-sm-4">
+            <h3>Information Architecture</h3>
+            <img src="img/hLine.png" id="h-line">
+            <p></p>
+            <p>The structure to hold the data to support a tool is as important, if not more important, than the tool itself. I have both academic and industry experience with scalable data storage/organization solutions.</p>
+            <p></p>
+            <p>Neo4j. MongoDB. SQL.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+       <div class="container-fluid" id="footer-text">
+        <p>©2018 pmhj.xyz</p>
+        <p>pmhj42@gmail.com</p>
+      </div>
+      <div class="container-fluid" id="footer-icons">
+        <a href="https://www.linkedin.com/in/pmhj42/"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a href="https://twitter.com/pmhj42"><i class="fab fa-twitter fa-3x"></i></a>
+        <a href="https://www.instagram.com/pmhj42/"><i class="fab fa-instagram fa-3x"></i></a>
+      </div>
+    </div>
+
+    <!-- Modules -->
+    <script src="js/app.js"></script>
+    <!-- Controllers -->
+    <script src="js/controllers/MainController.js"></script>
+    <!-- Directives -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  </body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <base href="/">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Font Awesome Icons -->
+    <script defer src="./js/shared/fontawesome-all.js"></script>
+    <!-- Include the AngularJS library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+    <!-- Font -->
+    <style>@import url('https://fonts.googleapis.com/css?family=Montserrat');</style>
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <title>pmhj.xyz</title>
+
+  </head>
+  <body ng-app="myApp">
+    <div class="navbar">
+      <div class="container-fluid">
+        <div class="row">
+          <ul id="nav">
+            <li><a href="index.html">pmhj.xyz</a></li>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="neo.html">neo4j</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="about.html">about</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-retro" ng-controller="MainController">
+      <div id="overlay"></div>
+      <div id="overlayImgP">
+        <img id="imgFullP" src="" alt="" width="1000" />
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-7" id="retro-text">
+            <h2>Infographic: Retro Video Game Popularity</h2>
+            <p><div class="section-header">Problem Statement: </div>As an introduction to Adobe Illustrator, design an infographic of a current issue and model it after another similar infographic.</p>
+
+            <p><div class="section-header">Plan: </div>Choosing one of the most important topics on earth, the rising cost of retro video games, present a similarly themed informative design.</p>
+
+            <p><div class="section-header">Team: </div>Patrick Harper-Joles</p>
+
+            <p><div class="section-header">Technology: </div>Illustrator</p>
+
+            <p><div class="section-header">Mildly Interesting: </div>During this project I gained a very close relationship to all of the retro video game resale shops in the Seattle/Bellevue, WA area. I made many calls and more visits in person to ask detailed research questions about what they thought was driving up prices in the market. The greater Seattle area has one of the best resale communities in the nation!</p>
+          </div>
+          <div class="col-sm-5"><img src="img/retroFull.png" class="retro-img" id="imgThumbR1"></div>
+        </div>
+      </div>
+      <div class="container-fluid" id="thumbs-list">
+        <ul>
+          <div class="row" id="retro-list">
+            <div class="col-sm-12" id="retro-header">
+              <h2 class="notes-header">Design Notes</h2>
+              <img src="img/hLine.png" id="header-line">
+              <ul class="notes-list">
+                <li>Color scheme allowed for highlighting key aspects with orange and subduing other aspects with darker base colors, for each separate piece I attempted to ensure I knew what was meant to be highlighted in the dataset</li>
+                <li>Geographical work in the last piece was particularly difficult to present without occlusion of data in high activity areas, great learning experience on sizing and placement</li>
+              </ul>
+            </div>
+            <div class="col-sm-6"><li><img src="img/retroPie.png" id="list-item-retro"></li></div>
+            <div class="col-sm-6"><li><img src="img/retroBar.png" id="list-item-retro"></li></div>
+            <div class="col-sm-6"><li><div id="list-header-retro">Piece of the Pie</div>
+            <img src="img/hLine.png" id="h-line-retro"><p id="list-text-retro">At the time of this infographic's inception, 2015, we were at the tail end of the "6th" generation home console market. While the term of "retro" has a degree of variance amongst collectors, at this time, there were generally more older games than there were current games available for purchase. This lead to the creation of a healthy second-hand video gaming market that gains more order and cost variance by the day.</p>
+            <p id="list-text-retro">This market had, by and large, not been heavily recognized by the official video game publishers until well after the movement of second-hand games from the pawn shop, as they were collected in the early days, to the dedicated retro game store. Unfortunately, it was only recently that video game resale prices were centrally tracked in openly viewable databases, as the internet became more integral to society and many independent game shops came to rely on the internet for standardized pricing information.</p></li></div>
+            <div class="col-sm-6"><li><div id="list-header-retro">New, Used, or Collectible?</div><img src="img/hLine.png" id="h-line-retro"><p id="list-text-retro">Here I am focusing on the elements of; item recognition (a large list of highly successful games), highlighting current resale price, showing the beginning of resale price tracking (collected statistics dated 2008 and after).</p>
+            <p id="list-text-retro">Through research and interviews into the retro video game industry it became clear to me that not all games increase over time. Two items seem to play into a game's eventual rising cost, community status and production run. Community status plays into whether a game has value amongst the community, usually denoted as being 'good' games or not. But it is not always that simple, sometimes a game can have status simply because it is bad, maybe comically so. Additionally, status can rise if something with the game happens socially, such as adoption as a new speed running game for instance can cause a spike in demand. Production run, speaks to the number of physical copies of the game produced by the publisher. Some small publishers produce drastically smaller print runs than larger publishers.</p></li></div>
+            <div class="col-sm-6"><li><img src="img/retroTimeline.png" id="list-item-retro"></li></div>
+            <div class="col-sm-6"><li><img src="img/retroColors.png" id="list-item-retro"></li></div>
+            <div class="col-sm-6"><li><div id="list-header-retro">Cost timeline mapped</div><img src="img/hLine.png" id="h-line-retro"><p id="list-text-retro">Here I am focusing on the elements of; item recognition (Super Metroid is a very popular game in most communities), highlighting starting MSRP and current resale price, from the research I had gathered I also attempted to explain the largest jump with highlighted text. </p>
+            <p id="list-text-retro">Despite being readily available for many years after release, most video games lost value for a long time. With a revival of pop culture and nostalgia in the early to mid 2000's caused many new video game collectors and new gamers interested in games that they never had the chance to buy new at retail, entered the used market. Though many factors appear to have shaped the slow increase of prices over time, there does seem to be a bit of a formula to a game releasing at retail, losing value over time, then beginning to rebound over time as traded supply of the game dwindles.</p></li></div>
+            <div class="col-sm-6"><li><div id="list-header-retro">Colored for Collection</div><img src="img/hLine.png" id="h-line-retro"><p id="list-text-retro">Here I am focusing on the elements of; image recognition (N64 cartridge shape), similar color usage (leveraging my color base for known specials, Zelda = Gold), and highlighting small numbers of a larger whole.</p>
+            <p id="list-text-retro">Before purposefully built 'special edition' video games became a mainstay in the video game industry, they were more of a differentiation tactic than a collectors item. When the Sony Playstation released in 1995, they moved away from traditional cartridge based video games and began to utilize CD technology to press the games onto discs, drastically decreasing production costs. Nintendo's answer to the Playstation, the Nintendo 64, continued to use cartridges despite the cost detriment to 3rd party vendors. However, this allowed publishers to explore different colored cartridges to make their games stand out, something that a disc had trouble doing.</p></li></div>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer">
+       <div class="container-fluid" id="footer-text">
+        <p>©2018 pmhj.xyz</p>
+        <p>pmhj42@gmail.com</p>
+      </div>
+      <div class="container-fluid" id="footer-icons">
+        <a href="https://www.linkedin.com/in/pmhj42/"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a href="https://twitter.com/pmhj42"><i class="fab fa-twitter fa-3x"></i></a>
+        <a href="https://www.instagram.com/pmhj42/"><i class="fab fa-instagram fa-3x"></i></a>
+      </div>
+    </div>
+
+    <!-- Modules -->
+    <script src="js/app.js"></script>
+    <!-- Controllers -->
+    <script src="js/controllers/MainController.js"></script>
+    <!-- Directives -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery load first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- jQuery js -->
+    <script src='js/preview.js'></script>
+  
+  </body>
+</html>

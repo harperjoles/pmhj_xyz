@@ -9,14 +9,5 @@ const pool = new Pool({
 });
 
 express()
-  .use(express.static(path.join(__dirname, 'public')))
-  .set('views', path.join(__dirname, 'views'))
-  .set('view engine', 'html')
-  .get('/', (req, res) => res.render('views/index'))
-  .get('/about', (req, res) => res.send(about()))
-  .get('/cruise', (req, res) => res.send(cruise()))
-  .get('/fresh', (req, res) => res.send(fresh()))
-  .get('/mobile', (req, res) => res.send(mobile()))
-  .get('/porfolio', (req, res) => res.send(porfolio()))
-  .get('/retro', (req, res) => res.send(retro()))
+  .use(express.static(path.join(__dirname, '/public')))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
