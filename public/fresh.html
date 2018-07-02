@@ -39,8 +39,8 @@
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-7" id="fresh-text">
-            <h2>Project Fresh</h2>
+          <div class="col-md-9" id="section-text">
+            <h2 class="section-title">Project Fresh</h2>
             <p><div class="section-header">Problem Statement: </div>While away from home we frequently do not have a view into our home pantry or current store of cooking items. If there were a solution, one might hope to reduce food waste, minimize frustration from 'quick store trips', and possible monetary savings.</p>
 
             <p><div class="section-header">Plan: </div>Create an android mobile solution that would include features such tracking of home pantry, meal/shopping suggestions based upon current pantry items, expiration/use-by-date tracking, etc.,</p>
@@ -51,11 +51,10 @@
 
             <p><div class="section-header">Mildly Interesting: </div>We filmed a number of promotional videos, and went through many many reshoots, to first illustrate our problem statement and then to show the world after our solution. It was a really fun process and the videos came out great!</p>
           </div>
-          <div class="col-sm-5"><img src="img/projectFreshFull.png" id="fresh-img"></div>
+          <div class="col-md-3" id="section-hero"><img src="img/projectFreshFull.png" id="fresh-img"></div>
         </div>
       </div>
       <div class="container-fluid" id="thumbs-list">
-        <ul>
           <div class="row" id="fresh-list">
             <div class="col-sm-12" id="fresh-header">
               <h2 class="notes-header">Design Notes</h2>
@@ -67,20 +66,39 @@
                 <li>One scan entry method, GS1 coding can be found on many items within your local grocery store and not just on food, this coding allows the tracking of expiration dates, best by dates, and the best part is more than one item can be added to a single scan code!</li>
               </ul>
             </div>
-            <div class="col-sm-4"><li><img src="img/freshHomeThumb.png" class="list-item" id="imgThumbF1"></li></div>
-            <div class="col-sm-4"><li><img src="img/freshItemDetailThumb.png" class="list-item" id="imgThumbF2"></li></div>
-            <div class="col-sm-4"><li><img src="img/freshRecipeThumb.png" class="list-item" id="imgThumbF3"></li></div>
-            <div class="col-sm-4"><li><div class="list-header">Pantry View</div><img src="img/hLine.png" id="h-line"><p class="list-text">This view is centered around your current store of at home food. From left to right; image of item, name/expiration date, and a color coded easy view to tell you whether an item is in a good to eat zone or whether you should trash it and buy fresh. This is the home screen of the application, serving as the information base for suggestions and other features.</p></li></div>
-            <div class="col-sm-4"><li><div class="list-header">Pantry Detailed View</div><img src="img/hLine.png" id="h-line"><p class="list-text">By selecting any of your pantry items you can view a detailed information view that includes such things as; expiration date, nutritional facts, recipe suggestions based on this item, and the ability to add this item to a future shopping list.</p></li></div>
-            <div class="col-sm-4"><li><div class="list-header">Recipe View</div><img src="img/hLine.png" id="h-line"><p class="list-text">Selectable from both the pantry detailed view and through the bottom selection bar, recipe view shows simple suggestions based on your current, and previous, pantry items. This allows you to not only maximize the food you purchase but also can introduce you to new recipes!</p></li></div>
-            <div class="col-sm-4"><li><img src="img/freshRecipeListThumb.png" class="list-item" id="imgThumbF4"></li></div>
-            <div class="col-sm-4"><li><img src="img/freshScanThumb.png" class="list-item" id="imgThumbF5"></li></div>
-            <div class="col-sm-4"><li><img src="img/freshShoppingListRecipeThumb.png" class="list-item" id="imgThumbF6"></li></div>
-            <div class="col-sm-4"><li><div class="list-header">Recipe Gallery</div><img src="img/hLine.png" id="h-line"><p class="list-text">Home to both recipes based upon your pantry and their relative difficulty/time to prepare. Sorting is available in multiple forms including; cook time, difficulty, or even sort by expiration date!</p></li></div>
-            <div class="col-sm-4"><li><div class="list-header">Scan Mode</div><img src="img/hLine.png" id="h-line"><p class="list-text">Instead of entering each item into Project Fresh individually, scan them into your pantry in any of these formats; GS1, UPC, or QR codes are all supported at launch! We hope that by utilizing currently developing GS1 standards technology we can make create a single scan-able code at the bottom of your shopping recipe. One snap and you're done! Your entire purchase list will be added to your current pantry!</p></li></div>
-            <div class="col-sm-4"><li><div class="list-header">Shopping Lists</div><img src="img/hLine.png" id="h-line"><p class="list-text">There are lots of shopping list based applications on the market, however this list is based on YOUR trends and YOUR likes. You can add items to your list automatically upon expiration or see what you you have, and don't have, to make a recipe. Simple settings designed to make YOUR life more about YOU.</p></li></div>
+            <div class="col-sm-12 col-md-6"><img src="img/freshHomeThumb.png" class="list-item" id="imgThumbF1"></div>
+            <div class="col-sm-12" id="list-mobile"><li><div class="list-header">Pantry View</div><img src="img/hLine.png" id="h-line"><p class="list-text">This view is centered around your current store of at home food. From left to right; image of item, name/expiration date, and a color coded easy view to tell you whether an item is in a good to eat zone or whether you should trash it and buy fresh. This is the home screen of the application, serving as the information base for suggestions and other features.</p></li></div>
+            
+            <div class="col-sm-12 col-md-6"><img src="img/freshItemDetailThumb.png" class="list-item" id="imgThumbF2"></div>
+            <div class="col-sm-12" id="list-mobile"><li><div class="list-header">Pantry Detailed View</div><img src="img/hLine.png" id="h-line"><p class="list-text">By selecting any of your pantry items you can view a detailed information view that includes such things as; expiration date, nutritional facts, recipe suggestions based on this item, and the ability to add this item to a future shopping list.</p></li></div>
+            
+            <div class="col-sm-12 col-md-6" id="list-desk"><li><div class="list-header">Pantry View</div><img src="img/hLine.png" id="h-line"><p class="list-text">This view is centered around your current store of at home food. From left to right; image of item, name/expiration date, and a color coded easy view to tell you whether an item is in a good to eat zone or whether you should trash it and buy fresh. This is the home screen of the application, serving as the information base for suggestions and other features.</p></li></div>
+            <div class="col-sm-12 col-md-6" id="list-desk"><li><div class="list-header">Pantry Detailed View</div><img src="img/hLine.png" id="h-line"><p class="list-text">By selecting any of your pantry items you can view a detailed information view that includes such things as; expiration date, nutritional facts, recipe suggestions based on this item, and the ability to add this item to a future shopping list.</p></li></div>
+
+
+            <div class="col-sm-12 col-md-6"><img src="img/freshRecipeThumb.png" class="list-item" id="imgThumbF3"></div>
+            <div class="col-sm-12" id="list-mobile"><li><div class="list-header">Recipe View</div><img src="img/hLine.png" id="h-line"><p class="list-text">Selectable from both the pantry detailed view and through the bottom selection bar, recipe view shows simple suggestions based on your current, and previous, pantry items. This allows you to not only maximize the food you purchase but also can introduce you to new recipes!</p></li></div>
+
+            <div class="col-sm-12 col-md-6"><img src="img/freshRecipeListThumb.png" class="list-item" id="imgThumbF4"></div>
+            <div class="col-sm-12" id="list-mobile"><li><div class="list-header">Recipe Gallery</div><img src="img/hLine.png" id="h-line"><p class="list-text">Home to both recipes based upon your pantry and their relative difficulty/time to prepare. Sorting is available in multiple forms including; cook time, difficulty, or even sort by expiration date!</p></li></div>
+            
+            <div class="col-sm-12 col-md-6" id="list-desk"><li><div class="list-header">Recipe View</div><img src="img/hLine.png" id="h-line"><p class="list-text">Selectable from both the pantry detailed view and through the bottom selection bar, recipe view shows simple suggestions based on your current, and previous, pantry items. This allows you to not only maximize the food you purchase but also can introduce you to new recipes!</p></li></div>
+            <div class="col-sm-12 col-md-6" id="list-desk"><li><div class="list-header">Recipe Gallery</div><img src="img/hLine.png" id="h-line"><p class="list-text">Home to both recipes based upon your pantry and their relative difficulty/time to prepare. Sorting is available in multiple forms including; cook time, difficulty, or even sort by expiration date!</p></li></div>
+
+            
+            
+
+            <div class="col-sm-12 col-md-6"><img src="img/freshScanThumb.png" class="list-item" id="imgThumbF5"></div>
+            <div class="col-sm-12" id="list-mobile"><li><div class="list-header">Scan Mode</div><img src="img/hLine.png" id="h-line"><p class="list-text">Instead of entering each item into Project Fresh individually, scan them into your pantry in any of these formats; GS1, UPC, or QR codes are all supported at launch! We hope that by utilizing currently developing GS1 standards technology we can make create a single scan-able code at the bottom of your shopping recipe. One snap and you're done! Your entire purchase list will be added to your current pantry!</p></li></div>
+           
+            <div class="col-sm-12 col-md-6"><img src="img/freshShoppingListRecipeThumb.png" class="list-item" id="imgThumbF6"></div>
+            <div class="col-sm-12" id="list-mobile"><li><div class="list-header">Shopping Lists</div><img src="img/hLine.png" id="h-line"><p class="list-text">There are lots of shopping list based applications on the market, however this list is based on YOUR trends and YOUR likes. You can add items to your list automatically upon expiration or see what you you have, and don't have, to make a recipe. Simple settings designed to make YOUR life more about YOU.</p></li></div>
+            
+
+            <div class="col-sm-12 col-md-6" id="list-desk"><li><div class="list-header">Scan Mode</div><img src="img/hLine.png" id="h-line"><p class="list-text">Instead of entering each item into Project Fresh individually, scan them into your pantry in any of these formats; GS1, UPC, or QR codes are all supported at launch! We hope that by utilizing currently developing GS1 standards technology we can make create a single scan-able code at the bottom of your shopping recipe. One snap and you're done! Your entire purchase list will be added to your current pantry!</p></li></div>
+            <div class="col-sm-12 col-md-6" id="list-desk"><li><div class="list-header">Shopping Lists</div><img src="img/hLine.png" id="h-line"><p class="list-text">There are lots of shopping list based applications on the market, however this list is based on YOUR trends and YOUR likes. You can add items to your list automatically upon expiration or see what you you have, and don't have, to make a recipe. Simple settings designed to make YOUR life more about YOU.</p></li></div>
+
           </div>
-        </ul>
       </div>
     </div>
 

@@ -1,8 +1,25 @@
+
+body {
+   background-color: #000000;
+}
+
 h2 {
    color: #fdc501;
 }
 
+img {
+   max-width: 100%;
+   height: auto;
+}
 
+
+.container-fluid {
+   max-width: 95%;
+   margin: 0 auto;
+}
+.con-flu-full {
+   max-width: 100%;
+}
 
 .navbar {
    background-color: #f8f8ff;
@@ -10,15 +27,11 @@ h2 {
    color: black;
 }
 .navbar .container-fluid {
-   width: 80%;
-   padding-top: 0.5%; 
+   padding-top: 0.5em; 
 }
 #nav {
    list-style: none;
-   display: inline-block;
    text-align: center;
-   word-spacing: 18px;
-   font-size: 20px;
    font-family: 'Montserrat', sans-serif;
    font-weight: 500;
 }
@@ -28,31 +41,42 @@ h2 {
 }
 #nav a {
    color: black;
+   text-decoration: none;
+   font-size: 1.25rem;
+   padding: .4em;
 }
-
+#nav a:hover,
+#nav a:focus {
+   color: darkgrey;
+}
 
 
 .main {
    background-color: #000000;
-   height: 1800px;
+   height: auto;
    width: 100%;
    font-family: 'Montserrat', sans-serif;
 }
 .main .container-fluid {
    color: white;
-   font-size: 14px;
+   font-size: .8rem;
 }
-#name {
-   height: 600px;
+#main-hero {
+   height: auto;
+   max-height: 500px;
    width: 100%;
-   padding: 10% 0% 10% 0%;
    text-align: center;
    background-image: url("../img/sydney1.jpg");
    background-size: 100% 100%;
    background-repeat: no-repeat;
 }
-#name h1 {
-   font-size: 72px;
+#main-hero h1 {
+   font-size: 3.5rem;
+   padding: 1em .5em 0em .5em;
+}
+#main-hero h3 {
+   font-size: 1.5rem;
+   padding-bottom: 1.5em;
 }
 
 #main-content {
@@ -64,25 +88,28 @@ h2 {
 #main-text {
    padding: 2% 5% 2% 5%;
    text-align: center;
+   font-size: .9rem;
 }
 #main-thumbs {
-   height: 300px;
-   width: 300px;
+   height: auto;
+   width: auto;
+   padding: .5em;
 }
-#main-aboutIndex {
+#main-about-index {
    height: auto;
    width: 80%;
    padding: 2% 2% 2% 2%;
    text-align: center;
 }
-#aboutIndex {
+#about-index {
    padding-bottom: 2%;
+   font-size: .9rem;
 }
-#aboutIndex-row {
+#about-index-row {
    text-align: center;
    align-content: center;
 }
-#aboutIndex-line {
+#about-index-line {
    width: 30%;
 }
 
@@ -97,19 +124,17 @@ h2 {
    height: 10%;
    width: 80%;
    color: white;
-   font-size: 14px;
+   font-size: 1rem;
    text-align: center;
 }
 .footer .container-fluid a {
    color: white;
 }
 #footer-text {
-   word-spacing: 2px;
-   padding: 2% 1% 1% 1%;
+   padding: .2em
 }
 #footer-icons {
-   word-spacing: 64px;
-   padding: 0% 1% 1% 1%;
+   padding: .4em;
 }
 
 
@@ -126,9 +151,16 @@ h2 {
    overflow: hidden;
    height: auto;
    display: block;
-   padding: 1% 2% 1% 2%;
-   margin-left: auto;
-   margin-right: auto;
+   padding: .5em;
+   margin: auto;
+   width: 42%;
+}
+#h-lineA {
+   overflow: hidden;
+   height: auto;
+   display: block;
+   padding: .5em;
+   margin: auto;
    width: 42%;
 }
 #h-lineL {
@@ -153,52 +185,68 @@ h2 {
    height: 70%;
    display: block;
    padding: 50% 25% 50% 25%;
-   margin-top: auto;
-   margin-bottom: auto;
-   margin-left: auto;
-   margin-right: auto;
+   margin: auto;
 }
 #v-lineC {
    overflow: hidden;
    width: auto;
-   height: 300px;
+   height: 20em;
    display: inline-block;
-   margin-top: auto;
-   margin-bottom: auto;
-   margin-left: 1%;
-   margin-right: 1%;
-   padding: 0% 0% 0% 0%;
+   margin: auto;
 }
 
+#section-text {
+   text-align: left;
+   padding: auto;
+   margin: auto;
+}
+#section-text h2 {
+   font-size: 2rem;
+}
+#section-text p {
+   font-size: 1rem;
+}
+.section-title {
+   font-size: 1.4rem;
+   font-weight: 600;
+   margin: auto;
+   padding-top: 1em;
+}
 .section-header {
-   font-size: 20px;
-   font-weight: 500;
+   font-size: 1.2rem;
+   font-weight: 600;
+}
+#section-hero {
+   padding-top: .5em;
 }
 .notes-header {
    text-align: center;
-   padding: 1% 1% 0% 1%;
+   padding: .5em .5em 0em .5em;
 }
 .notes-list {
    list-style-type: square;
    list-style-position: inside;
    text-align: left;
-   padding: 2% 10% 2% 10%;
+   padding-bottom: 2em;
+   font-size: 1rem;
+   padding-left: 0;
+   margin-left: 0;
 }
 .list-item {
    height: auto;
    width: 100%;
-   padding: 2% 10% 2% 10%;
+   padding: 2em;
    overflow: hidden;
 }
 .list-header {
-   font-size: 24px;
+   font-size: 1.2rem;
    font-weight: 700;
    padding: 1% 0% 1% 0%;
    text-align: center;
    color: #fdc501;
 }
 .list-headerL {
-   font-size: 24px;
+   font-size: 1.2rem;
    font-weight: 700;
    padding: 1% 0% 1% 0%;
    text-align: left;
@@ -206,7 +254,7 @@ h2 {
    text-decoration: none;
 }
 .list-headerR {
-   font-size: 24px;
+   font-size: 1.2rem;
    font-weight: 700;
    padding: 1% 0% 1% 0%;
    text-align: right;
@@ -217,22 +265,23 @@ h2 {
    text-align: center;
    padding: 2% 10% 5% 10%;
    width: 100%;
-   font-size: 14px;
+   font-size: .8rem;
 }
 .list-textL {
-   text-align: left;
+   text-align: justify;
    padding: 1% 0% 1% 0%;
    width: 100%;
-   font-size: 14px;
-   margin-top: auto;
+   font-size: .8rem;
    text-decoration: none;
+   margin: none;
 }
 .list-textR {
-   text-align: right;
+   text-align: justify;
    padding: 1% 0% 1% 0%;
    width: 100%;
-   font-size: 14px;
+   font-size: .8rem;
    text-decoration: none;
+   margin: none;
 }
 .list-link {
    text-decoration: none;
@@ -242,30 +291,34 @@ h2 {
 
 .main-portfolio {
    background-color: #000000;
-   height: 1200px;
+   height: auto;
    width: 100%;
    font-family: 'Montserrat', sans-serif;
    color: white;
 }
+
 #portfolio-text {
+   max-height: auto;
    text-align: center;
-   padding: 3% 10% 5% 3%;
+   padding: 1em;
    text-decoration: none;
+   margin: auto;
+   display: block;
 }
 #portfolio-text h2 {
-   font-size: 42px;
-   padding-bottom: 4%;
+   font-size: 2rem;
+   padding-bottom: .2em;
 }
 #portfolio-text p {
-   font-size: 16px;
+   font-size: 1rem;
 }
 
 #portfolio-img {
-   height: 400px;
-   width: 400px;
-   position: absolute;
-   right: 50px;
-   padding-bottom: 2%;
+   max-height: 20em;
+   max-width: 22em;
+   padding: 1.5em;
+   margin: auto;
+   display: block;
 }
 
 #portfolio-list {
@@ -279,50 +332,35 @@ h2 {
 }
 
 #list-item-portfolioL {
-   position: absolute;
-   width: 300px;
+   width: 100%;
    height: auto;
-   padding: 1% 0% 1% 0%;
+   padding: 1em 0em 1em 0em;
    text-align: left;
-   left: 2px;
+   left: .1em;
 
 }
 #list-item-portfolioR {
-   position: absolute;
-   width: 300px;
+   width: 100%;
    height: auto;
-   padding: 1% 0% 1% 0%;
+   padding: 1em 0em 1em 0em;
    text-align: right;
-   right: 2px;
+   right: .1em;
 }
 
 
 
 .main-fresh {
    background-color: #000000;
-   height: 2800px;
+   height: auto;
    width: 100%;
    font-family: 'Montserrat', sans-serif;
    color: white;
 }
 
-#fresh-text {
-   text-align: left;
-   padding: 5% 10% 15% 5%;
-   margin: auto auto auto auto;
-}
-#fresh-text h2 {
-   font-size: 42px;
-}
-#fresh-text p {
-   font-size: 18px;
-}
-
 #fresh-img {
    height: auto;
    width: 100%;
-   position: absolute;
-   right: 50px;
+   margin: auto;
    padding-bottom: 2%;
 }
 
@@ -334,28 +372,14 @@ h2 {
 
 .main-retro {
    background-color: #000000;
-   height: 2850px;
+   height: auto;
    width: 100%;
    font-family: 'Montserrat', sans-serif;
    color: white;
 }
-#retro-text {
-   text-align: left;
-   padding: 2% 3% 0% 5%;
-}
-#retro-text h2 {
-   font-size: 42px;
-   padding-bottom: 0.5%;
-}
-#retro-text p {
-   font-size: 18px;
-}
 
 .retro-img {
-   width: 600px;
-   position: absolute;
-   right: 50px;
-   padding-bottom: 1%;
+   width: 100%;
    overflow: hidden;
    height: auto;
    display: block;
@@ -363,33 +387,30 @@ h2 {
 
 #retro-list {
    list-style-type: none;
-   padding: 1% 42% 1% 2%;
 }
 
 #list-item-retro {
    height: auto;
-   width: 70%;
-   padding: 2% 2% 2% 2%;
 }
 #list-header-retro {
-   font-size: 24px;
+   font-size: 2rem;
    font-weight: 700;
-   padding: 1% 30% 1% 0%;
    text-align: center;
    color: #fdc501;
+   padding-top: .5em;
 }
 #list-text-retro {
    text-align: center;
-   padding: 2% 30% 2% 2%;
-   font-size: 14px;
+   font-size: .8rem;
 }
 
 #h-line-retro {
    overflow: hidden;
    height: auto;
    display: block;
-   margin-left: 10%;
-   margin-right: auto;
+   margin: auto;
+   padding-top: .5em;
+   padding-bottom: .5em;
    width: 50%;
 }
 
@@ -397,98 +418,69 @@ h2 {
 
 .main-mobile {
    background-color: #000000;
-   height: 4400px;
+   height: auto;
    width: 100%;
    font-family: 'Montserrat', sans-serif;
    color: white;
 }
-#mobile-text {
-   text-align: left;
-   padding: 2% 3% 0% 5%;
-}
-#mobile-text h2 {
-   font-size: 42px;
-   padding-bottom: 0.5%;
-}
-#mobile-text p {
-   font-size: 18px;
-}
 
 #mobile-img {
-   width: 450px;
-   position: absolute;
-   right: 100px;
-   padding-bottom: 5%;
+   width: 100%;
    overflow: hidden;
    height: auto;
    display: block;
+   margin: auto;
 }
 
 #mobile-list {
-   padding-top: 15%;
    list-style-type: none;
 }
 
 .list-item-mobile {
    height: auto;
    width: 100%;
-   padding: 2% 2% 2% 2%;
+   padding: .5em;
 }
 #list-text-mobile {
    text-align: center;
-   padding: 2% 10% 2% 10%;
+   padding: .5em 1em .5em 1em;
 }
 
 
 
 .main-cruise {
    background-color: #000000;
-   height: 2700px;
+   height: auto;
    width: 100%;
    font-family: 'Montserrat', sans-serif;
    color: white;
 }
-#cruise-text {
-   text-align: left;
-   padding: 2% 5% 0% 5%;
-}
-#cruise-text h2 {
-   font-size: 42px;
-}
-#cruise-text p {
-   font-size: 18px;
-}
 
 #cruise-img {
-   width: 700px;
-   position: absolute;
-   right: 50px;
+   width: 100%;
    overflow: hidden;
    height: auto;
    display: block;
 }
 
 #cruise-list {
-   padding-top: 8%;
+   padding-top: .5em;
    list-style-type: none;
 }
 
 #list-item-cruise {
    height: auto;
-   width: 80%;
-   padding: 2% 2% 2% 2%;
 }
 #list-text-cruise {
    text-align: center;
-   padding: 5% 2% 2% 2%;
-   font-size: 14px;
+   font-size: .8rem;
 }
 
 
 
 .main-about {
    background-color: #000000;
-   height: 2600px;
+   height: auto;
    width: 100%;
    font-family: 'Montserrat', sans-serif;
    color: white;
@@ -496,53 +488,29 @@ h2 {
 
 #about-text {
    text-align: left;
-   padding: 2% 3% 10% 3%;
-   font-size: 14px;
+   font-size: .8rem;
 }
 #about-text h2 {
-   font-size: 32px;
-   padding-bottom: 0.5%;
+   font-size: 2.2rem;
 }
 #about-text p {
-   font-size: 14px;
+   font-size: .8rem;
 }
 
 #about-img {
    overflow: hidden;
-   height: 70%;
+   width: 100%;
+   height: auto;
    display: block;
-   padding: 42% 25% 42% 25%;
-   margin-top: auto;
-   margin-bottom: auto;
-   margin-left: auto;
-   margin-right: auto;
+   margin: auto;
+   padding-top: 1em;
+   padding-bottom: 1em;
 }
 #about-imgH {
    overflow: hidden;
+   width: 100%;
    height: auto;
    display: block;
-   padding: 0% 5% 1% 5%;
-   margin-left: auto;
-   margin-right: auto;
-   width: 20%;
-}
-#about-imgR {
-   width: 750px;
-   position: absolute;
-   right: 50px;
-   overflow: hidden;
-   height: auto;
-   display: block;
-   padding-bottom: 8%;
-}
-#about-imgL {
-   width: 750px;
-   position: absolute;
-   left: 50px;
-   overflow: hidden;
-   height: auto;
-   display: block;
-   padding-bottom: 8%;
 }
 
 #about-header {
@@ -550,15 +518,15 @@ h2 {
    padding: 1% 5% 1% 5%;
 }
 #about-header h2 {
-   font-size: 36px;
+   font-size: 2.4rem;
 }
 #about-header p {
-   font-size: 16px;
+   font-size: 1rem;
 }
 
 
 
-#overlay{
+/*#overlay{
     position: fixed; 
     width: 100%; 
     height: 100%; 
@@ -597,10 +565,124 @@ h2 {
 #imgThumbC1, #imgThumbC2, #imgThumbC3, #imgThumbC4, #imgThumbC5, #imgThumbC6, #imgThumbM1, #imgThumbM2, 
 #imgThumbM3, #imgThumbM4, #imgThumbM5, #imgThumbM6, #imgThumbR1 {
     cursor: pointer;
+}*/
+
+@media (min-width: 1px) and (max-width: 767px) {
+   #list-desk {
+      display: none;
+   }
+}
+
+@media (min-width: 1px) and (max-width: 768px) {
+   #v-line {
+      display: none;
+   }
+   #v-lineC {
+      display: none;
+   }
+   #portfolio-img {
+      display: none;
+   }
+   #list-headerL {
+      padding-top: 1em;
+   }
+   #list-headerR {
+      padding-top: 1em;
+   }
+   #portfolio-full-img {
+      display: none;
+   }
+   #portfolio-thumb {
+      display: block;
+   }
+}
+
+@media (min-width: 1px) and (max-width: 768px) {
+   #list-img-desk {
+      display: none;
+   }
+}
+
+@media (min-width: 1px) and (max-width: 1500px) {
+   #portfolio-img {
+      display: none;
+   }
+   #portfolio-spacer {
+      display: none;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 3460px) {
+   #h-line {
+      display: none;
+   }
+  
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+   #section-text {
+      font-size: .8rem;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 1199px) {
+   .list-textL {
+      font-size: .6rem;
+   }
+   .list-textR {
+      font-size: .6rem;
+   }
+   .section-title {
+      font-size: 1.2rem;
+   }
+   .notes-list {
+      font-size: .8rem;
+   }
+   #list-sidetext {
+      font-size: .8rem;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+   #main-hero {
+      height: 300px;
+   }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+   #main-hero {
+      height: 400px;
+   }
+}
+
+@media (min-width: 1200px) and (max-width: 3460px) {
+   #main-hero {
+      height: 500px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 3460px) {
+   #list-mobile {
+      display: none;
+   }
+   #portfolio-thumb {
+      display: none;
+   }
+   #portfolio-full-img {
+      display: block;
+   }
+   #h-lineA {
+      display: none;
+   }
+
 }
 
 
-
+@media (min-width: 768px) and (max-width: 3460px) {
+   #list-img-mobile {
+      display: none;
+   }
+}
 
 
 

@@ -42,8 +42,8 @@
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-7" id="cruise-text">
-            <h2>Carnival Cruise: Smart Mirror<br/>[Mock Proposal]</h2>
+          <div class="col-sm-7" id="section-text">
+            <h2 class="section-title">Carnival Cruise: Smart Mirror<br/>[Mock Proposal]</h2>
             <p><div class="section-header">Problem Statement: </div>Given a class of students, design new technological solutions to the current Carnival Cruise experience and present those proposals with included marketing to personas, before/after comparisons, and possible gains associated with these proposals.</p>
 
             <p><div class="section-header">Plan: </div>After discussing where technological advancements would be most relevant in the Carnival Cruise experience we developed 2 proposals. A smart mirror and a smart band (developed by 2 outside team members). The smart mirror was designed to utilize a piece of common room space with a cool current spin.</p>
@@ -54,11 +54,10 @@
 
             <p><div class="section-header">Mildly Interesting: </div>This design had many interested during our in class presentation, and that weekend, another of our alma mater decided to make a prototype concept of a smart mirror. He got it working the following weekend during a 20 hour hacking session, just for fun!</p>
           </div>
-          <div class="col-sm-5"><img src="img/cruiseMirrorThumb.png" id="cruise-img"></div>
+          <div class="col-sm-5" class="section-hero"><img src="img/cruiseMirror.png" id="cruise-img"></div>
         </div>
       </div>
       <div class="container-fluid" id="thumbs-list">
-        <ul>
           <div class="row" id="cruise-list">
             <div class="col-sm-12" id="cruise-header">
               <h2 class="notes-header">Design Notes</h2>
@@ -69,20 +68,35 @@
                 <li>The goal of this design is to ensure that a guest has access to all ship features and serves as a quick planner for deals, features, and connecting with other shipmates</li>
               </ul>
             </div>
-            <div class="col-sm-4"><li><img src="img/cruiseHome.png" class="list-item" id="imgThumbC1"></li></div>
-            <div class="col-sm-4"><li><img src="img/cruiseReservation.png" class="list-item" id="imgThumbC2"></li></div>
-            <div class="col-sm-4"><li><img src="img/cruiseDetailedRestaurant.png" class="list-item" id="imgThumbC3"></li></div>
-            <div class="col-sm-4"><li><div class="list-header">Home View</div><img src="img/hLine.png" id="h-line"><p class="list-text">In order for a mirror to be useful in both its common physical and software properties, we decided early to use a monotone screen layout. The mirror could be transferred at any time with a quick swipe from it's mirror to smart mirror format. Additionally, a detailed and settings based view can be accessed by tapping any individual tile or note.</p></li></div>
-            <div class="col-sm-4"><li><div class="list-header">Reservations View</div><img src="img/hLine.png" id="h-line"><p class="list-text">Upon tapping the Itinerary tile, you can access the list of your upcoming reservations and the full list of the ships restaurant offerings. Any of these restaurant names can be tapped to go into it's detailed view. This allows for a central area to view all food places, their specials, and hours/location. This allows us to solve the problem of, what am I doing?</p></li></div>
-            <div class="col-sm-4"><li><div class="list-header">Detailed Restaurant View</div><img src="img/hLine.png" id="h-line"><p class="list-text">Tapping any of the restaurant names from the Reservations View will show you the detailed restaurant view including the menu, hours, and costs. A reservation can be made from this view by tapping the reservation icon in the top right of the view. This allows us to solve our second problem, what am I eating?</p></li></div>
-            <div class="col-sm-4"><li><img src="img/cruiseAllEvents.png" class="list-item" id="imgThumbC4"></li></div>
-            <div class="col-sm-4"><li><img src="img/cruiseDetailedEvent.png" class="list-item" id="imgThumbC5"></li></div>
-            <div class="col-sm-4"><li><img src="img/cruiseAttendeeList.png" class="list-item" id="imgThumbC6"></li></div>
-            <div class="col-sm-4"><li><div class="list-header">All Events View</div><img src="img/hLine.png" id="h-line"><p class="list-text">All events on the ship are presented, in order, with the ability to enter a Detailed Event View by tapping any events title. A quick reserve option for events that have a reservation list, is available to the left of the event title. We began to utilize color in this view to highlight differing information types. Color could be used in this design, but only for complex detail heavy interactions.</p></li></div>
-            <div class="col-sm-4"><li><div class="list-header">Detailed Event View</div><img src="img/hLine.png" id="h-line"><p class="list-text">Detailed event view allows for reservations, detailed event information, and also a list of people who have reserved the event. We wanted to ensure that there were social aspects built into the regular ship participation channels. During the family cruises, families can connect with other families and during singles cruises, singles can determine which events appear to best support their fun times. This solves our last question, who am I doing this with?</p></li></div>
-            <div class="col-sm-4"><li><div class="list-header">Event Attendees List</div><img src="img/hLine.png" id="h-line"><p class="list-text">This list, as part of the Detailed Event View, allows for you to see who is going to an event in detail and determine where the best party or family friendly time will be. As you meet new friends, you can elect to add them to your internal contacts list and send/receive invites from them.</p></li></div>
+            <div class="col-sm-12 col-md-6"><img src="img/cruiseHome.png" class="list-item" id="imgThumbC1"></div>
+            <div class="col-sm-12" id="list-mobile"><li><div class="list-header">Home View</div><img src="img/hLine.png" id="h-line"><p class="list-text">In order for a mirror to be useful in both its common physical and software properties, we decided early to use a monotone screen layout. The mirror could be transferred at any time with a quick swipe from it's mirror to smart mirror format. Additionally, a detailed and settings based view can be accessed by tapping any individual tile or note.</p></li></div>
+            <div class="col-sm-12 col-md-6"><img src="img/cruiseReservation.png" class="list-item" id="imgThumbC2"></div>
+            <div class="col-sm-12" id="list-mobile"><li><div class="list-header">Reservations View</div><img src="img/hLine.png" id="h-line"><p class="list-text">Upon tapping the Itinerary tile, you can access the list of your upcoming reservations and the full list of the ships restaurant offerings. Any of these restaurant names can be tapped to go into it's detailed view. This allows for a central area to view all food places, their specials, and hours/location. This allows us to solve the problem of, what am I doing?</p></li></div>
+
+            
+            <div class="col-md-6" id="list-desk"><li><div class="list-header">Home View</div><img src="img/hLine.png" id="h-line"><p class="list-text">In order for a mirror to be useful in both its common physical and software properties, we decided early to use a monotone screen layout. The mirror could be transferred at any time with a quick swipe from it's mirror to smart mirror format. Additionally, a detailed and settings based view can be accessed by tapping any individual tile or note.</p></li></div>
+            <div class="col-md-6" id="list-desk"><li><div class="list-header">Reservations View</div><img src="img/hLine.png" id="h-line"><p class="list-text">Upon tapping the Itinerary tile, you can access the list of your upcoming reservations and the full list of the ships restaurant offerings. Any of these restaurant names can be tapped to go into it's detailed view. This allows for a central area to view all food places, their specials, and hours/location. This allows us to solve the problem of, what am I doing?</p></li></div>
+            
+            <div class="col-sm-12 col-md-6"><img src="img/cruiseDetailedRestaurant.png" class="list-item" id="imgThumbC3"></div>
+            <div class="col-sm-12" id="list-mobile"><li><div class="list-header">Detailed Restaurant View</div><img src="img/hLine.png" id="h-line"><p class="list-text">Tapping any of the restaurant names from the Reservations View will show you the detailed restaurant view including the menu, hours, and costs. A reservation can be made from this view by tapping the reservation icon in the top right of the view. This allows us to solve our second problem, what am I eating?</p></li></div>
+
+            <div class="col-sm-12 col-md-6"><img src="img/cruiseAllEvents.png" class="list-item" id="imgThumbC4"></div>
+            <div class="col-sm-12" id="list-mobile"><li><div class="list-header">All Events View</div><img src="img/hLine.png" id="h-line"><p class="list-text">All events on the ship are presented, in order, with the ability to enter a Detailed Event View by tapping any events title. A quick reserve option for events that have a reservation list, is available to the left of the event title. We began to utilize color in this view to highlight differing information types. Color could be used in this design, but only for complex detail heavy interactions.</p></li></div>
+
+
+            <div class="col-md-6" id="list-desk"><li><div class="list-header">Detailed Restaurant View</div><img src="img/hLine.png" id="h-line"><p class="list-text">Tapping any of the restaurant names from the Reservations View will show you the detailed restaurant view including the menu, hours, and costs. A reservation can be made from this view by tapping the reservation icon in the top right of the view. This allows us to solve our second problem, what am I eating?</p></li></div>
+            <div class="col-md-6" id="list-desk"><li><div class="list-header">All Events View</div><img src="img/hLine.png" id="h-line"><p class="list-text">All events on the ship are presented, in order, with the ability to enter a Detailed Event View by tapping any events title. A quick reserve option for events that have a reservation list, is available to the left of the event title. We began to utilize color in this view to highlight differing information types. Color could be used in this design, but only for complex detail heavy interactions.</p></li></div>
+            
+            <div class="col-sm-12 col-md-6"><img src="img/cruiseDetailedEvent.png" class="list-item" id="imgThumbC5"></div>
+            <div class="col-sm-12" id="list-mobile"><li><div class="list-header">Detailed Event View</div><img src="img/hLine.png" id="h-line"><p class="list-text">Detailed event view allows for reservations, detailed event information, and also a list of people who have reserved the event. We wanted to ensure that there were social aspects built into the regular ship participation channels. During the family cruises, families can connect with other families and during singles cruises, singles can determine which events appear to best support their fun times. This solves our last question, who am I doing this with?</p></li></div>
+            
+            <div class="col-sm-12 col-md-6"><img src="img/cruiseAttendeeList.png" class="list-item" id="imgThumbC6"></div>
+            <div class="col-sm-12" id="list-mobile"><li><div class="list-header">Event Attendees List</div><img src="img/hLine.png" id="h-line"><p class="list-text">This list, as part of the Detailed Event View, allows for you to see who is going to an event in detail and determine where the best party or family friendly time will be. As you meet new friends, you can elect to add them to your internal contacts list and send/receive invites from them.</p></li></div>
+
+
+            <div class="col-md-6" id="list-desk"><li><div class="list-header">Detailed Event View</div><img src="img/hLine.png" id="h-line"><p class="list-text">Detailed event view allows for reservations, detailed event information, and also a list of people who have reserved the event. We wanted to ensure that there were social aspects built into the regular ship participation channels. During the family cruises, families can connect with other families and during singles cruises, singles can determine which events appear to best support their fun times. This solves our last question, who am I doing this with?</p></li></div>
+            <div class="col-md-6" id="list-desk"><li><div class="list-header">Event Attendees List</div><img src="img/hLine.png" id="h-line"><p class="list-text">This list, as part of the Detailed Event View, allows for you to see who is going to an event in detail and determine where the best party or family friendly time will be. As you meet new friends, you can elect to add them to your internal contacts list and send/receive invites from them.</p></li></div>
           </div>
-        </ul>
       </div>
     </div>
 

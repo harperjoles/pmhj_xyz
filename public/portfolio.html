@@ -34,36 +34,55 @@
 
     <div class="main-portfolio" ng-controller="MainController">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-9" id="portfolio-text">
+        <div class="row" id="portfolio-hero">
+          <div class="col-md-1" id="portfolio-spacer"></div>
+          <div class="col-md-8" id="portfolio-text">
             <h2>Projects Directory</h2>
             <p>While attending the Informatics BS program at UW, I was introduced to a number of concepts across the industry to make us well rounded and understanding of the larger nature of where our designs would be implemented and how. All of the below projects were designed entirely, or in part, by myself. In every team based effort, no matter my role, I will be focused heavily on the overall design of the UI and the overall product.</p>
             <p>A few of my below projects have been completed to prototype level code to allow for interactivity and use case based testing. All designs were created to best harness the dataset they were leveraging as they grew. By looking to the dataset and specific use case at the time, the possible future of a design can be planned for purposefully and deliberately.</p>
           </div>
-          <div class="col-sm-3"><img src="img/freshRecipeListThumb.png" id="portfolio-img"></div>
+          <div class="col-md-3" id="portfolio-img"><img src="img/freshRecipeListThumb.png" id="portfolio-img"></div>
         </div>
       </div>
       <div class="container-fluid">
-        <ul>
+
           <div class="row" id="portfolio-list">
-            <div class="col-sm-2"><li><a href="fresh.html"><img src="img/freshHomeThumb.png" id="list-item-portfolioL"></li></div></a>
-            <div class="col-sm-3"><li><a class="list-link" href="fresh.html"><div class="list-headerL">Project Fresh: <br/>Individual Food Tracking</div><img src="img/hLine.png" id="h-lineL"><p class="list-textL">By selecting any of your pantry items you can view a detailed information view that includes such things as; expiration date, nutritional facts, recipe suggestions based on this item, and the ability to add this item to a future shopping list.</p>
+            <div class="col-md-2 col-lg-2" id="portfolio-full-img"><a href="fresh.html"><img src="img/freshHome.png" id="list-item-portfolioL"></div></a>
+            <div class="col-sm-6 col-md-2" id="portfolio-thumb"><a href="fresh.html"><img src="img/freshHomeThumb.png" id="list-item-portfolioL"></div></a>
+            <div class="col-sm-6 col-md-4 col-lg-4"><a class="list-link" href="fresh.html"><div class="list-headerL">Project Fresh: <br/>Individual Food Tracking</div><img src="img/hLine.png" id="h-lineL"><p class="list-textL">By selecting any of your pantry items you can view a detailed information view that includes such things as; expiration date, nutritional facts, recipe suggestions based on this item, and the ability to add this item to a future shopping list.</p>
 
-            <p class="list-textL">Project Fresh was a group collaboration with 3 other University of Washington students to create something we all felt passionately about, food spoilage and savings.</p></a></li></div><img src="img/vLine.png" id="v-lineC">
+            <p class="list-textL">Project Fresh was a group collaboration with 3 other University of Washington students to create something we all felt passionately about, food spoilage and savings.</p></a></div>
 
-            <div class="col-sm-4"><li><a class="list-link" href="mobile.html"><div class="list-headerR">Mobile Designs: <br/>Calendar, Tasks, and Notes</div><img src="img/hLine.png" id="h-lineR"><p class="list-textR">During a full class experiment, we conceived of a mobile operating system that offered strong app/data connections. These connections would offer suggestions as to what you may have meant by a partially understood input or allow you to access most apps from the same selection screen.</p>
+
+            <div class="col-xs-1" id="h-line"><img src="img/hLine.png" id="h-line"></div>
+
+
+            <div class="col-sm-6 col-md-4 col-lg-4"><a class="list-link" href="mobile.html"><div class="list-headerR">Mobile Designs: <br/>Calendar, Tasks, and Notes</div><img src="img/hLine.png" id="h-lineR"><p class="list-textR">During a full class experiment, we conceived of a mobile operating system that offered strong app/data connections. These connections would offer suggestions as to what you may have meant by a partially understood input or allow you to access most apps from the same selection screen.</p>
             
-            <p class="list-textR">Having previous experience with scheduling projects, I opted to work on the Calendar, Tasks, and Notes team. We spent many long nights on every interaction and connection we could think of within the confines of the overall operating system scope and I was very proud of the concepts we included in our end proposals.</p></a></li></div>
-            <div class="col-sm-2"><li><a href="mobile.html"><img src="img/mobileCalThumb.png" id="list-item-portfolioR"></li></div></a>
+            <p class="list-textR">Having previous experience with scheduling projects, I opted to work on the Calendar, Tasks, and Notes team. We spent many long nights on every interaction and connection we could think of within the confines of the overall operating system scope and I was very proud of the concepts we included in our end proposals.</p></a></div>
+            <div class="col-md-2 col-lg-2" id="portfolio-full-img"><a href="mobile.html"><img src="img/mobileCalWeek.png" id="list-item-portfolioR"></div></a>
+            <div class="col-sm-6 col-md-2" id="portfolio-thumb"><a href="mobile.html"><img src="img/mobileCalThumb.png" id="list-item-portfolioR"></div></a>
 
-            <div class="col-sm-2"><li><a href="retro.html"><img src="img/retroThumb.png" id="list-item-portfolioL"></li></div></a>
-            <div class="col-sm-3"><li><a class="list-link" href="retro.html"><div class="list-headerL">Infographic: <br/>Retro Video Game Popularity</div><img src="img/hLine.png" id="h-lineL"><p class="list-textL">As an avid video game collector and enthusiast, I spent some time working on a personal project while learning Adobe Illustrator. Though a few items were still rough in concept at the end of my project, I felt strongly about the quality of the content that was included. This infographic served as a PSA to anyone who may be unaware that second-hand video game prices have been steadily climbing since 2012. So many classics are becoming locked behind possibly permanent pay walls!!</p></a></li></div><img src="img/vLine.png" id="v-lineC">
+            <div class="col-xs-1" id="h-line"><img src="img/hLine.png" id="h-line"></div>
 
-            <div class="col-sm-4"><li><a class="list-link" href="cruise.html"><div class="list-headerR">Carnival Cruise: <br/>Smart Mirror [Mock Proposal]</div><img src="img/hLine.png" id="h-lineR"><p class="list-textR">User experience design taught at University of Washington by Adam Levine, one of Amazon's Lead Designers. He was invaluable in learning early user experience concepts and planning. Though there were many challenges we worked on during his course, the Carnival Cruise case was particularly well executed. We were tasked with finding a way to allow guests to use technology to better enjoy their cruise experience. Though many groups focused on entertainment platforms, my partner and myself decided on the Disney method of allowing guests to use technology passively in order to compliment, rather than being the focal point of, their visit.</p></a></li></div>
-            <div class="col-sm-2"><li><a href="cruise.html"><img src="img/cruiseMirrorThumb.png" id="list-item-portfolioR"></li></div></a>
+            <div class="col-md-2 col-lg-2" id="portfolio-full-img"><a href="retro.html"><img src="img/retro.png" id="list-item-portfolioL"></div></a>
+            <div class="col-sm-6 col-md-2" id="portfolio-thumb"><a href="retro.html"><img src="img/retroThumb.png" id="list-item-portfolioL"></div></a>
+            <div class="col-sm-6 col-md-4 col-lg-4"><a class="list-link" href="retro.html"><div class="list-headerL">Infographic: <br/>Retro Video Game Popularity</div><img src="img/hLine.png" id="h-lineL"><p class="list-textL">As an avid video game collector and enthusiast, I spent some time working on a personal project while learning Adobe Illustrator. Though a few items were still rough in concept at the end of my project, I felt strongly about the quality of the content that was included.</p>
+
+            <p class="list-textL">This infographic served as a PSA to anyone who may be unaware that second-hand video game prices have been steadily climbing since 2012. So many classics are becoming locked behind possibly permanent pay walls!!</p></a></div>
+
+            <div class="col-xs-1" id="h-line"><img src="img/hLine.png" id="h-line"></div>
+
+            <div class="col-sm-6 col-md-4 col-lg-4"><a class="list-link" href="cruise.html"><div class="list-headerR">Carnival Cruise: <br/>Smart Mirror [Mock Proposal]</div><img src="img/hLine.png" id="h-lineR"><p class="list-textR">User experience design taught at University of Washington by Adam Levine, one of Amazon's Lead Designers. He was invaluable in learning early user experience concepts and planning. Though there were many challenges we worked on during his course, the Carnival Cruise case was particularly well executed.</p>
+
+            <p class="list-textR">We were tasked with finding a way to allow guests to use technology to better enjoy their cruise experience. Though many groups focused on entertainment platforms, my partner and myself decided on the Disney method of allowing guests to use technology passively in order to compliment, rather than being the focal point of, their visit.</p></a></div>
+            <div class="col-md-2 col-lg-2" id="portfolio-full-img"><a href="cruise.html"><img src="img/cruiseMirror.png" id="list-item-portfolioR"></div></a>
+            <div class="col-sm-6 col-md-2" id="portfolio-thumb"><a href="cruise.html"><img src="img/cruiseMirrorThumb.png" id="list-item-portfolioR"></div></a>
+
+            <div class="col-xs-1" id="h-line"><img src="img/hLine.png" id="h-line"></div>
             
           </div>
-        </ul>
+
       </div>
     </div>
 
